@@ -52,13 +52,16 @@ body {
   width: 100%;
 }
 .page {
-  bpadding-top: 10px;
   height: 100%;
   width: 100%;
   position: relative;
 }
-
-.button1 {
+.button {
+  transition: 0.5s;
+}
+.button:hover {
+  transition: 0.5s;
+  border-radius: 10px;
 }
 .introduction {
   font-size: 40px;
@@ -68,8 +71,6 @@ body {
   text-align: center;
 }
 .rosterpic {
-  bposition: absolute;
-  bheight: 40%;
   display: block;
   margin: 20px auto;
   max-height: 70vh;
@@ -99,8 +100,8 @@ body {
   position: absolute;
   bottom: 0;
   right: 40px;
-  max-height: 50vh;
-  max-width: 60vw;
+  max-height: 70vh;
+  max-width: 70vw;
   height: auto;
   width: auto;
 }
@@ -114,6 +115,7 @@ body {
   text-indent: 25px;
   font-size: 40px;
   font-weight: bold;
+  color: black;
 }
 .volleyballtext {
   font-size: 25px;
