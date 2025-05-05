@@ -14,9 +14,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0%;
-  background-image: linear-gradient(to top, #393939, #4d4d4d);
-}
-.border2 {
+  background-image: linear-gradient(to top)
+}.border2 {
   border: 2px solid green;
 }
 .border {
